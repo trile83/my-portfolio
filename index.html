@@ -51,20 +51,20 @@
 
             <h3>Novel Riesz-Quincunx U-Net Variational Autoencoder for Satellite Image Denoising</h3>
             <p>
-              # Riesz-Quincunx-UNet Variational Auto-Encoder using Pytorch
-              ![Model Architecture](rqunetvae_architecture.png) <br>
+              <b>Riesz-Quincunx-UNet Variational Auto-Encoder using Pytorch</b>
+              <img src="rqunetvae_architecture.png">
               
               This is the primary code for the <a href="https://ieeexplore.ieee.org/document/10176136">paper</a>
-              ## Getting Started
+              <b>Getting Started</b>
               The code is constructed using PyTorch and users can the requirement/environment.yaml to clone the conda environment. The code require at least Python 3.8.<br>
-              The code is currently using a DataLoader from PyTorch to load data inside the model for training, therefore, need to modify the DataLoader code to correct data input path.<br>
+              The code is currently using a DataLoader from PyTorch to load data inside the model for training, therefore, need to modify the DataLoader code to correct data input path.<be>
               
-              ## Dataset
+              <b>Dataset</b>
               In this study, we used satellite images from National Agriculture Imagery Program <a href="https://www.usgs.gov/search?keywords=Products%20and%20Datasets">NAIP Data</a> dataset with 3 bands (RGB) for segmentation experiment and <a href="https://scihub.copernicus.eu/">Sentinel-2 Data</a> data with 3 bands (RGB) for reconstruction and denoising experiments. 
               The data is preprocessed to the size 256x256 for training and prediction stages.
 
-              ## Results
-              ![Denoised Video](vido_1932_compare.gif) <br>
+              Results
+              <img src="vido_1932_compare.gif">
 
               
             </p>
