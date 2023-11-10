@@ -58,11 +58,11 @@
               <br>
               <b>Background</b><br>
               Multiresolution deep learning approaches, such as the UNet architecture, have achieved high performance in classifying and segmenting images.
-              Most traditional convolutional neural network (CNN) architectures commonly use pooling to enlarge the receptive field, which usually results in irreversible information loss. 
+              Most traditional convolutional neural network (CNN) architectures commonly use pooling to enlarge the receptive field, which usually results in irreversible information loss.
+              The UNet architecture avoids this information loss by introducing skip connections that allow the reconstruction of lost information. 
               <details>
               <summary>Read more</summary>
               <p>
-                 The UNet architecture avoids this information loss by introducing skip connections that allow the reconstruction of lost information. 
                 Leveraging this property of the UNet, this study proposes to include a Riesz-Quincunx (RQ) wavelet transform, which combines: <br>
                 1) higher order Riesz wavelet transform<br>
                 2) orthogonal Quincunx wavelets (commonly used to reduce blur in medical images) inside the UNet to reduce noise in satellite images and their time-series. <br>
