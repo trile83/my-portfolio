@@ -29,7 +29,7 @@
 
     <header id="header">
       <img src="logo.jpg">
-      <h1>Minh Tri Le Data Science Research Projects</h1>
+      <h1>Minh Tri Le</h1>
       
       <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
       <ul class="main-menu">
@@ -59,9 +59,9 @@
               <br>
               <b>Background</b><br>
               Multiresolution deep learning approaches, such as the UNet architecture, have achieved high performance in classifying and segmenting images. Most traditional convolutional neural network (CNN) architectures commonly use pooling to enlarge the receptive field, which usually results in irreversible information loss. The UNet architecture avoids this information loss by introducing skip connections that allow the reconstruction of lost information. Leveraging this property of the UNet, this study proposes to include a Riesz-Quincunx (RQ) wavelet transform, which combines: 1) higher order Riesz wavelet transform and 2) orthogonal Quincunx wavelets (commonly used to reduce blur in medical images) inside the UNet to reduce noise in satellite images and their time-series. Combining both approaches, we introduce a hybrid RQ-UNet variational autoencoder (RQUNet-VAE) scheme for image and time series decomposition used to reduce noise in satellite imagery. By including denoising capabilities directly inside the UNet architecture, we hypothesize that our RQUNet-VAE may improve downstream image processing tasks that use the traditional UNet architecture. We present qualitative and quantitative experimental results that demonstrate that our proposed RQUNet-VAE is effective at reducing noise in satellite imagery yielding results similar to other state-of-the-art noise reduction methods. We further show that our RQUNet-VAE outperforms the UNet architecture specifically in cases where images exhibit high levels of noise. We show this result in two down-stream applications for multiband satellite images, including image time-series decomposition and image segmentation.
-              
+              <br>
               <b>Dataset</b><br>
-              In this study, we used satellite images from National Agriculture Imagery Program <a href="https://www.usgs.gov/search?keywords=Products%20and%20Datasets">NAIP Data</a> dataset with 3 bands (RGB) for segmentation experiment and <a href="https://scihub.copernicus.eu/">Sentinel-2 Data</a> data with 3 bands (RGB) for reconstruction and denoising experiments. 
+              In this study, we used satellite images from National Agriculture Imagery Program <a href="https://www.usgs.gov/search?keywords=Products%20and%20Datasets">NAIP Data</a> dataset with 3 bands (RGB) for segmentation experiment and <a href="https://scihub.copernicus.eu/">Sentinel-2 Data</a> data with 10 bands for reconstruction and denoising experiments. 
               The data is preprocessed to the size 256x256 for the training and prediction stages. <br>
 
               <b>Results</b><br>
