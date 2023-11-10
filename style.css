@@ -101,7 +101,7 @@ html {
   background-size:cover;
 }
 body {
-  max-width:800px;
+  max-width:2000px;
   margin:25px auto;
 }
 header, #content, footer { 
