@@ -57,12 +57,14 @@
               
               <br><br>
               <b>Background</b><br>
-              Multiresolution deep learning approaches, such as the UNet architecture, have achieved high performance in classifying and segmenting images.
-              Most traditional convolutional neural network (CNN) architectures commonly use pooling to enlarge the receptive field, which usually results in irreversible information loss.
-              The UNet architecture avoids this information loss by introducing skip connections that allow the reconstruction of lost information. 
+              This project exploredn the application satellite imagery time series in North America regions and the potential of image smoothing (Riesz-Quincunx) technique to remove undesired noise, coupling with U-Net architecture, in improving the quality of image segmentation.
+              <br>
               <details>
               <summary>Read more</summary>
               <p>
+                Multiresolution deep learning approaches, such as the UNet architecture, have achieved high performance in classifying and segmenting images.
+                Most traditional convolutional neural network (CNN) architectures commonly use pooling to enlarge the receptive field, which usually results in irreversible information loss.
+                The UNet architecture avoids this information loss by introducing skip connections that allow the reconstruction of lost information. 
                 Leveraging this property of the UNet, this study proposes to include a Riesz-Quincunx (RQ) wavelet transform, which combines: <br>
                 1) higher order Riesz wavelet transform<br>
                 2) orthogonal Quincunx wavelets (commonly used to reduce blur in medical images) inside the UNet to reduce noise in satellite images and their time series. <br>
@@ -92,14 +94,11 @@
               <img src="Global_PhyloView.PNG" class="img">
               <br><br>
               <b>Background</b><br>
-              Since the onset of the COVID-19 pandemic, millions of coronavirus sequences have been rapidly deposited in publicly available repositories.
-              The sequences have been used primarily to monitor the evolution and transmission of the virus.
-              In addition, the data can be combined with spatiotemporal information and mapped over space and time to understand transmission dynamics further.
-             <br>
+              This project tackled the challenge of understanding the spread and evolution of COVID-19 during the pandemic. By utilizing the globally reported dataset from GISAID, I processed the data and created a visualization dashboard on ArcGIS Insights to improve our understanding of the disease.
+              <br>
               <details>
               <summary>Read more</summary>
               <p>
-                For example, the first COVID-19 cases in Australia were genetically related to the dominant strain in Wuhan, China, and spread via international travel.
                 These data are currently available through the Global Initiative on Sharing Avian Influenza Data (GISAID) yet generally remain an untapped resource for data scientists to analyze such multi-dimensional data.
                 Therefore, in this study, we demonstrate a system named Phyloview, a highly interactive visual environment that can be used to examine the spatiotemporal evolution of COVID-19 (from-to) over time using the case study of Louisiana, USA.
                 PhyloView (powered by ArcGIS Insights) facilitates the visualization and exploration of the different dimensions of the phylogenetic data and can be layered with other types of spatiotemporal data for further investigation.
